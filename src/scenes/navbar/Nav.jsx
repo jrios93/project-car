@@ -13,7 +13,7 @@ const Nav = () => {
             <div className="flexBetween w-full">
               <div className="flexBetween gap-8 text-sm">
                 <p>Inicio</p>
-                <p>¿Dulce o Salado?</p>
+                <p>¿Qué preparo?</p>
                 <p>Carritos</p>
                 <p>Testimonios</p>
                 <p>Ultimos Eventos</p>

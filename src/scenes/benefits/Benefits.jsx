@@ -1,5 +1,9 @@
 const Benefecit = () => {
-  return <div>Benefecit</div>;
+  return (
+    <div>
+      <div className="bg-primary-100 py-32"></div>
+    </div>
+  );
 };
 
 export default Benefecit;
