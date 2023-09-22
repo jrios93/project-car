@@ -1,8 +1,7 @@
 import Logo from "@assets/Logo.png";
-import Facebook from "@assets/facebook.png";
-import Instagram from "@assets/instagram.png";
-import Tiktok from "@assets/tik-tok.png";
-
+import { BsFacebook } from "react-icons/bs";
+import { AiFillInstagram } from "react-icons/ai";
+import { BiLogoTiktok } from "react-icons/bi";
 const Nav = () => {
   return (
     <nav>
@@ -14,8 +13,8 @@ const Nav = () => {
             <div className="flexBetween w-full">
               <div className="flexBetween gap-8 text-sm">
                 <p>Inicio</p>
-                <p>¿Qué Bocaditos Preparo?</p>
-                <p>Servicios</p>
+                <p>¿Dulce o Salado?</p>
+                <p>Carritos</p>
                 <p>Testimonios</p>
                 <p>Ultimos Eventos</p>
                 <p>Preguntas Frecuentes</p>
@@ -24,18 +23,19 @@ const Nav = () => {
             </div>
           </div>
           <div className="flexBetween gap-8">
+            <p>Redes Sociales:</p>
             <a href="https://www.facebook.com/profile.php?id=100093239148465">
-              <img alt="Facebook" src={Facebook} />
+              <BsFacebook className="text-lg" />
             </a>
             <a href="https://www.instagram.com/elduendecito.peru/">
-              <img alt="Instagram" src={Instagram} />
+              <AiFillInstagram className="text-lg" />
             </a>
             <a href="https://www.tiktok.com/@elduendecito.peru">
-              <img alt="Tiktok" src={Tiktok} />
+              <BiLogoTiktok className="text-lg" />
             </a>
 
             <button className="bg-secondary-500 rounded-full p-2 px-5">
-              Catálogo
+              Contactanos
             </button>
           </div>
         </div>
