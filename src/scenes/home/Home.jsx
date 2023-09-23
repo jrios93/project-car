@@ -1,4 +1,5 @@
 import Carr from "@assets/carrito.png";
+import { BsArrowBarDown } from "react-icons/bs";
 const Home = () => {
   return (
     <section id="home" className=" flexBetween w-full gap-16 bg-gray-20 py-24">
@@ -14,8 +15,10 @@ const Home = () => {
             a través de bocaditos exquisitos, servidos con elegancia y estilo en
             nuestras encantadoras carretillas vintage.
           </p>
-          <button className="bg-secondary-500 rounded-full p-2 px-5 w-1/5">
+
+          <button className="bg-secondary-500 rounded-full p-2 px-5 w-1/5 text-center  flex flex-col items-center hover:bg-primary-500 hover:cursor-pointer hover:text-white">
             Descargar Catálogo
+            <BsArrowBarDown className="font-semibold" />
           </button>
         </div>
         <div className="flex basis-3/5 justify-center">
